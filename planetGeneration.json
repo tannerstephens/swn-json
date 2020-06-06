@@ -1,0 +1,325 @@
+[
+  {
+    "key": "tag",
+    "count": 2,
+    "dice": "1d100",
+    "resultType": "index",
+    "results": [
+      "abandonedColony",
+      "flyingCities",
+      "misandry/Misogyny",
+      "rigidCulture",
+      "alienRuins",
+      "forbiddenTech",
+      "nightWorld",
+      "risingHegemon",
+      "alteredHumanity",
+      "formerWarriors",
+      "nomads",
+      "ritualCombat",
+      "anarchists",
+      "freakGeology",
+      "oceanicWorld",
+      "robots",
+      "anthropomorphs",
+      "freakWeather",
+      "outOfContact",
+      "seagoingCities",
+      "area51",
+      "friendlyFoe",
+      "outpostWorld",
+      "sealedMenace",
+      "badlandsWorld",
+      "goldRush",
+      "perimeterAgency",
+      "secretMasters",
+      "battleground",
+      "greatWork",
+      "pilgrimageSite",
+      "sectarians",
+      "beastmasters",
+      "hatred",
+      "pleasureWorld",
+      "seismicInstability",
+      "bubbleCities",
+      "heavyIndustry",
+      "policeState",
+      "shackledWorld",
+      "cheapLife",
+      "heavyMining",
+      "postScarcity",
+      "societalDespair",
+      "civilWar",
+      "hivemind",
+      "preceptorArchive",
+      "soleSupplier",
+      "coldWar",
+      "holyWar",
+      "pretechCultists",
+      "tabooTreasure",
+      "colonizedPopulation",
+      "hostileBiosphere",
+      "primitiveAliens",
+      "terraformFailure",
+      "culturalPower",
+      "hostileSpace",
+      "prisonPlanet",
+      "theocracy",
+      "cybercommunists",
+      "immortals",
+      "psionicsAcademy",
+      "tombWorld",
+      "cyborgs",
+      "localSpecialty",
+      "psionicsFear",
+      "tradeHub",
+      "cyclicalDoom",
+      "localTech",
+      "psionicsWorship",
+      "tyranny",
+      "desertWorld",
+      "majorSpaceyard",
+      "quarantinedWorld",
+      "unbrakedAI",
+      "doomedWorld",
+      "mandarinate",
+      "radioactiveWorld",
+      "urbanizedSurface",
+      "dyingRace",
+      "mandateBase",
+      "refugees",
+      "utopia",
+      "eugenicCult",
+      "maneaters",
+      "regionalHegemon",
+      "warlords",
+      "exchangeConsulate",
+      "megacorps",
+      "restrictiveLaws",
+      "xenophiles",
+      "fallenHegemon",
+      "mercenaries",
+      "revanchists",
+      "xenophobes",
+      "feralWorld",
+      "minimalContact",
+      "revolutionaries",
+      "zombies"
+    ]
+  },
+  {
+    "key": "atmosphere",
+    "count": 1,
+    "dice": "2d6",
+    "resultType": "range",
+    "results": [
+      {
+        "min": 2,
+        "max": 2,
+        "value": "corrosive"
+      },
+      {
+        "min": 3,
+        "max": 3,
+        "value": "inert"
+      },
+      {
+        "min": 4,
+        "max": 4,
+        "value": "airless"
+      },
+      {
+        "min": 5,
+        "max": 9,
+        "value": "breathable"
+      },
+      {
+        "min": 10,
+        "max": 10,
+        "value": "thick"
+      },
+      {
+        "min": 11,
+        "max": 11,
+        "value": "invasive"
+      },
+      {
+        "min": 12,
+        "max": 12,
+        "value": "corrosiveInvasive"
+      }
+    ]
+  },
+  {
+    "key": "temperature",
+    "count": 1,
+    "dice": "2d6",
+    "resultType": "range",
+    "results": [
+      {
+        "min": 2,
+        "max": 2,
+        "value": "frozen"
+      },
+      {
+        "min": 3,
+        "max": 3,
+        "value": "cold"
+      },
+      {
+        "min": 4,
+        "max": 5,
+        "value": "variableCold"
+      },
+      {
+        "min": 6,
+        "max": 8,
+        "value": "temperate"
+      },
+      {
+        "min": 9,
+        "max": 10,
+        "value": "variableWarm"
+      },
+      {
+        "min": 11,
+        "max": 11,
+        "value": "warm"
+      },
+      {
+        "min": 12,
+        "max": 12,
+        "value": "burning"
+      }
+    ]
+  },
+  {
+    "key": "biosphere",
+    "count": 1,
+    "dice": "2d6",
+    "resultType": "range",
+    "results": [
+      {
+        "min": 2,
+        "max": 2,
+        "value": "remnant"
+      },
+      {
+        "min": 3,
+        "max": 3,
+        "value": "microbial"
+      },
+      {
+        "min": 4,
+        "max": 5,
+        "value": "none"
+      },
+      {
+        "min": 6,
+        "max": 8,
+        "value": "humanMiscible"
+      },
+      {
+        "min": 9,
+        "max": 10,
+        "value": "immicible"
+      },
+      {
+        "min": 11,
+        "max": 11,
+        "value": "hybrid"
+      },
+      {
+        "min": 12,
+        "max": 12,
+        "value": "engineered"
+      }
+    ]
+  },
+  {
+    "key": "population",
+    "count": 1,
+    "dice": "2d6",
+    "resultType": "range",
+    "results": [
+      {
+        "min": 2,
+        "max": 2,
+        "value": "failed"
+      },
+      {
+        "min": 3,
+        "max": 3,
+        "value": "outpost"
+      },
+      {
+        "min": 4,
+        "max": 5,
+        "value": "fewerMillion"
+      },
+      {
+        "min": 6,
+        "max": 8,
+        "value": "severalMillion"
+      },
+      {
+        "min": 9,
+        "max": 10,
+        "value": "hundredMillion"
+      },
+      {
+        "min": 11,
+        "max": 11,
+        "value": "billions"
+      },
+      {
+        "min": 12,
+        "max": 12,
+        "value": "alien"
+      }
+    ]
+  },
+  {
+    "key": "techLevel",
+    "count": 1,
+    "dice": "2d6",
+    "resultType": "range",
+    "results": [
+      {
+        "min": 2,
+        "max": 2,
+        "value": "TL0"
+      },
+      {
+        "min": 3,
+        "max": 3,
+        "value": "TL1"
+      },
+      {
+        "min": 4,
+        "max": 5,
+        "value": "TL2"
+      },
+      {
+        "min": 6,
+        "max": 8,
+        "value": "TL4"
+      },
+      {
+        "min": 9,
+        "max": 10,
+        "value": "TL3"
+      },
+      {
+        "min": 11,
+        "max": 11,
+        "value": "TL4+"
+      },
+      {
+        "min": 12,
+        "max": 12,
+        "value": "TL5"
+      }
+    ]
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "roll": "1d20",
+  "results": [
+    "barbarian",
+    "clergy",
+    "courtesan",
+    "criminal",
+    "dilettante",
+    "entertainer",
+    "merchant",
+    "noble",
+    "official",
+    "peasant",
+    "physician",
+    "pilot",
+    "politician",
+    "scholar",
+    "soldier",
+    "spacer",
+    "technician",
+    "thug",
+    "vagabond",
+    "worker"
+  ]
+}

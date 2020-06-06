@@ -1,0 +1,240 @@
+{
+  "barbarian": {
+    "description": "Standards of barbarism vary when many worlds are capable of interstellar spaceflight, but your hero comes from a savage world of low technology and high violence. Their planet may have survived an all-consuming war, or been deprived of critical materials or energy resources, or simply have been colonized by confirmed Luddites. Other barbarians might be drawn from the impoverished underclass of advanced worlds or the technologically-degenerate inheritors of some high-tech space station or planetary hab.",
+    "freeSkill": [
+      "survive"
+    ],
+    "quickSkills": [
+      [
+        "survive"
+      ],
+      [
+        "notice"
+      ],
+      [
+        "punch",
+        "shoot",
+        "stab"
+      ]
+    ],
+    "growth": [
+      {
+        "type": "stat",
+        "change": 1,
+        "stat": [
+          "str",
+          "dex",
+          "con",
+          "int",
+          "wis",
+          "cha"
+        ],
+        "text": "+1 Any Stat"
+      },
+      {
+        "type": "stat",
+        "change": 2,
+        "stat": [
+          "str",
+          "dex",
+          "con"
+        ],
+        "text": "+2 Physical"
+      },
+      {
+        "type": "stat",
+        "change": 2,
+        "stat": [
+          "str",
+          "dex",
+          "con"
+        ],
+        "text": "+2 Physical"
+      },
+      {
+        "type": "stat",
+        "change": 2,
+        "stat": [
+          "int",
+          "wis",
+          "cha"
+        ],
+        "text": "+2 Mental"
+      },
+      {
+        "type": "skill",
+        "skill": [
+          "exert"
+        ],
+        "text": "Exert"
+      },
+      {
+        "type": "skill",
+        "skill": [
+          "administer",
+          "connect",
+          "exert",
+          "fix",
+          "heal",
+          "know",
+          "lead",
+          "notice",
+          "perform",
+          "pilot",
+          "program",
+          "punch",
+          "shoot",
+          "sneak",
+          "stab",
+          "survive",
+          "talk",
+          "trade",
+          "work"
+        ],
+        "text": "Any Skill"
+      }
+    ],
+    "learning": [
+      [
+        "punch",
+        "shoot",
+        "stab"
+      ],
+      [
+        "connect"
+      ],
+      [
+        "exert"
+      ],
+      [
+        "lead"
+      ],
+      [
+        "notice"
+      ],
+      [
+        "punch"
+      ],
+      [
+        "sneak"
+      ],
+      [
+        "survive"
+      ]
+    ]
+  },
+  "clergy": {
+    "description": "Faith is nigh-universal among human civilizations, and your hero is dedicated to one such belief. Some clergy are conventional priests or priestesses, while others might be cloistered monastics or nuns, or more martial warrior-monks. Modern-day faiths such as Christianity, Islam, Judaism, Hinduism, Buddhism, and other creeds all exist in various sectors, often in altered form, while some worlds have developed entirely new deities or faiths. If you’d like to create your own religion, you can work with the GM to define its characteristic beliefs.",
+    "freeSkill": [
+      "talk"
+    ],
+    "quickSkills": [
+      [
+        "talk"
+      ],
+      [
+        "perform"
+      ],
+      [
+        "know"
+      ]
+    ],
+    "growth": [
+      {
+        "type": "stat",
+        "change": 1,
+        "stat": [
+          "str",
+          "dex",
+          "con",
+          "int",
+          "wis",
+          "cha"
+        ]
+      },
+      {
+        "type": "stat",
+        "change": 2,
+        "stat": [
+          "int",
+          "wis",
+          "cha"
+        ]
+      },
+      {
+        "type": "stat",
+        "change": 2,
+        "stat": [
+          "str",
+          "dex",
+          "con"
+        ]
+      },
+      {
+        "type": "stat",
+        "change": 2,
+        "stat": [
+          "int",
+          "wis",
+          "cha"
+        ]
+      },
+      {
+        "type": "skill",
+        "skill": [
+          "connect"
+        ]
+      },
+      {
+        "type": "skill",
+        "skill": [
+          "administer",
+          "connect",
+          "exert",
+          "fix",
+          "heal",
+          "know",
+          "lead",
+          "notice",
+          "perform",
+          "pilot",
+          "program",
+          "punch",
+          "shoot",
+          "sneak",
+          "stab",
+          "survive",
+          "talk",
+          "trade",
+          "work"
+        ]
+      }
+    ],
+    "learning": [
+      [
+        "administer"
+      ],
+      [
+        "connect"
+      ],
+      [
+        "know"
+      ],
+      [
+        "lead"
+      ],
+      [
+        "notice"
+      ],
+      [
+        "perform"
+      ],
+      [
+        "talk"
+      ],
+      [
+        "talk"
+      ]
+    ]
+  }
+}
