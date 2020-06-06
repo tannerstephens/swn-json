@@ -1,0 +1,10 @@
+Ship Defense,,Cost,Power,Mass,Class,Effect,adjustments
+Ablative Hull Compartments,,100k*,5,2#,Capital,"+1 AC, +20 maximum hit points",ac:1|hp:20
+Augmented Plating,,25k*,0,1#,Fighter,"+2 AC, -1 Speed",ac:2|speed:-1
+Boarding Countermeasures,,25k*,2,1#,Frigate,Makes enemy boarding more difficult,
+Burst ECM Generator,,25k*,2,1#,Frigate,Negate one successful hit,
+Foxer Drones,,10k*,2,1#,Cruiser,"+2 AC for one round when fired, Ammo 5",
+Grav Eddy Displacer,,50k*,5,2#,Frigate,1 in 6 chance of any given attack missing.,
+Hardened Polyceramic Overlay,,25k*,0,1#,Fighter,AP quality of attacking weapons reduced by 5,
+Planetary Defense Array,,50k*,4,2#,Frigate,Anti-impact and anti-nuke surface defenses,
+Point Defense Lasers,,10k*,3,2#,Frigate,+2 AC versus weapons that use ammo,

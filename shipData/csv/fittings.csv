@@ -1,0 +1,46 @@
+Ship Fitting,Cost,Power,Mass,Class,Effect
+Advanced lab,10k*,1#,2,Frigate,Skill bonus for analysis and research
+Advanced nav computer,10k*,1#,0,Frigate,Adds +2 for traveling familiar spike courses
+Amphibious operation,25k*,1,1#,Fighter,Can land and can operate under water
+Armory,10k*,0,0,Frigate,Weapons and armor for the crew
+Atmospheric configuration,5k*,0,1#,Fighter,Can land: frigates and fighters only.
+Auto-targeting system,50k,1,0,Fighter,Fires one weapon system without a gunner
+Automation support,10k*,2,1,Fighter,Ship can use simple robots as crew
+Boarding tubes,5k*,0,1,Frigate,Allows boarding of a hostile disabled ship
+Cargo lighter,25k,0,2,Frigate,Orbit-to-surface cargo shuttle
+Cargo space,No cost,0,1,Fighter,Pressurized cargo space
+Cold sleep pods,5k*,1,1,Frigate,Keeps occupants in stasis
+Colony core,100k*,4,2#,Frigate,Ship can be deconstructed into a colony base
+Drill course regulator,25k*,1#,1,Frigate,Common drill routes become auto-successes
+Drive-2 upgrade,10k*,1#,1#,Fighter,Upgrade a spike drive to drive-2 rating
+Drive-3 upgrade,20k*,2#,2#,Fighter,Upgrade a spike drive to drive-3 rating
+Drive-4 upgrade,40k*,2#,3#,Frigate,Upgrade a spike drive to drive-4 rating
+Drive-5 upgrade,100k*,3#,3#,Frigate,Upgrade a spike drive to drive-5 rating
+Drive-6 upgrade,500k*,3#,4#,Cruiser,Upgrade a spike drive to drive-6 rating
+Drop pod,300k,0,2,Frigate,Stealthed landing pod for troops
+Emissions dampers,25k*,1#,1#,Fighter,Adds +2 to skill checks to avoid detection
+Exodus bay,50k*,1#,2#,Cruiser,House vast numbers of cold sleep passengers
+Extended life support,5k*,1#,1#,Fighter,Doubles maximum crew size
+Extended medbay,5k*,1,1,Frigate,Can provide medical care to more patients
+Extended stores,2.5k*,0,1#,Fighter,Maximum life support duration is doubled
+Fuel bunkers,2.5k*,0,1,Fighter,Adds fuel for one more drill between fuelings
+Fuel scoops,5k*,2,1#,Frigate,Ship can scoop fuel from a gas giant or star
+Hydroponic production,10k*,1#,2#,Cruiser,Ship produces life support resources
+Lifeboats,2.5k*,0,1,Frigate,Emergency escape craft for a ship’s crew
+Luxury cabins,10k*,1,1#,Frigate,10% of the max crew get luxurious quarters
+Mobile extractor,50k,2,1,Frigate,Space mining and refinery fittings
+Mobile factory,50k*,3,2#,Cruiser,Self-sustaining factory and repair facilities
+Precognitive nav chamber,100k*,1,0,Frigate,Allows a precog to assist in navigation
+Psionic anchorpoint,Special,3,0,Frigate,Focal point for allied psychics’ powers
+Sensor mask,10k*,1#,0,Frigate,"At long distances, disguise ship as another"
+Ship bay/fighter,200k,0,2,Cruiser,Carrier housing for a fighter
+Ship bay/frigate,1m,1,4,Capital,Carrier housing for a frigate
+Ship’s locker,2k*,0,0,Frigate,General equipment for the crew
+Shiptender mount,25k*,1,1,Frigate,Allow another ship to hitch on a spike drive
+Smuggler’s hold,2.5k*,0,1,Fighter,Small amount of well-hidden cargo space
+Survey sensor array,5k*,2,1,Frigate,Improved planetary sensory array
+System drive,Special,-1#,-2#,Fighter,Replace spike drive with small system drive
+Teleportation pads,Special,1,1,Frigate,Pretech teleportation to and from ship
+Tractor beams,10k*,2,1,Frigate,Manipulate objects in space at a distance
+Vehicle transport fittings,2.5k*,0,1#,Frigate,Halve tonnage space of carried vehicles
+Workshop,500*,1,0.5#,Frigate,Automated tech workshops for maintenance

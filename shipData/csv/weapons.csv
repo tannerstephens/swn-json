@@ -1,0 +1,20 @@
+Ship Weapon,Cost,Dmg,Power,Mass,Hard,Class,TL,Qualities
+Multifocal Laser,100k,1d4,5,1,1,Fighter,4,AP 20
+Reaper Battery,100k,3d4,4,1,1,Fighter,4,Clumsy
+Fractal Impact Charge,200k/500,2d6,5,1,1,Fighter,4,"AP 15, Ammo 4"
+Polyspectral MES Beam,2m,2d4,5,1,1,Fighter,5,AP 25
+Sandthrower,50k,2d4,3,1,1,Fighter,4,Flak
+Flak Emitter Battery,500k,2d6,5,3,1,Frigate,4,"AP 10, Flak"
+Torpedo Launcher,500k/2.5k,3d8,10,3,1,Frigate,4,"AP 20, Ammo 4"
+Charged Particle Caster,800k,3d6,10,1,2,Frigate,4,"AP 15, Clumsy"
+Plasma Beam,700k,3d6,5,2,2,Frigate,4,AP 10
+Mag Spike Array,1m/5k,2d6+2,5,2,2,Frigate,4,"Flak, AP 10, Ammo 5"
+Nuclear Missiles,50k/5k,Special,5,1,2,Frigate,4,Ammo 5
+Spinal Beam Cannon,1.5m,3d10,10,5,3,Cruiser,4,"AP 15, Clumsy"
+Smart Cloud,2m,3d10,10,5,2,Cruiser,4,"Cloud, Clumsy"
+Gravcannon,2m,4d6,15,4,3,Cruiser,4,AP 20
+Spike Inversion Projector,2.5m,3d8,10,3,3,Cruiser,4,AP 15
+Vortex Tunnel Inductor,5m,3d20,20,10,4,Capital,4,"AP 20, Clumsy"
+Mass Cannon,5m/50k,2d20,10,5,4,Capital,4,"AP 20, Ammo 4"
+Lightning Charge Mantle,4m,1d20,15,5,2,Capital,4,"AP 5, Cloud"
+Singularity Gun,20m,5d20,25,10,5,Capital,5,AP 25

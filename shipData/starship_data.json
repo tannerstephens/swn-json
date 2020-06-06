@@ -1,0 +1,1594 @@
+[
+    {
+        "items": [
+            {
+                "ac": 16,
+                "armor": 5,
+                "cost": 200000,
+                "crew": {
+                    "max": 1,
+                    "min": 1
+                },
+                "hardports": 1,
+                "hp": 8,
+                "hullClass": "Fighter",
+                "mass": 2,
+                "power": 5,
+                "speed": 5,
+                "type": "Strike Fighter"
+            },
+            {
+                "ac": 11,
+                "armor": 0,
+                "cost": 200000,
+                "crew": {
+                    "max": 10,
+                    "min": 1
+                },
+                "hardports": 1,
+                "hp": 15,
+                "hullClass": "Fighter",
+                "mass": 5,
+                "power": 3,
+                "speed": 3,
+                "type": "Shuttle"
+            },
+            {
+                "ac": 14,
+                "armor": 2,
+                "cost": 500000,
+                "crew": {
+                    "max": 6,
+                    "min": 1
+                },
+                "hardports": 2,
+                "hp": 20,
+                "hullClass": "Frigate",
+                "mass": 15,
+                "power": 10,
+                "speed": 3,
+                "type": "Free Merchant"
+            },
+            {
+                "ac": 14,
+                "armor": 5,
+                "cost": 2500000,
+                "crew": {
+                    "max": 20,
+                    "min": 5
+                },
+                "hardports": 4,
+                "hp": 25,
+                "hullClass": "Frigate",
+                "mass": 10,
+                "power": 15,
+                "speed": 4,
+                "type": "Patrol Boat"
+            },
+            {
+                "ac": 13,
+                "armor": 10,
+                "cost": 4000000,
+                "crew": {
+                    "max": 40,
+                    "min": 10
+                },
+                "hardports": 6,
+                "hp": 40,
+                "hullClass": "Frigate",
+                "mass": 15,
+                "power": 15,
+                "speed": 2,
+                "type": "Corvette"
+            },
+            {
+                "ac": 15,
+                "armor": 10,
+                "cost": 7000000,
+                "crew": {
+                    "max": 120,
+                    "min": 30
+                },
+                "hardports": 8,
+                "hp": 50,
+                "hullClass": "Frigate",
+                "mass": 20,
+                "power": 25,
+                "speed": 1,
+                "type": "Heavy Frigate"
+            },
+            {
+                "ac": 11,
+                "armor": 0,
+                "cost": 5000000,
+                "crew": {
+                    "max": 40,
+                    "min": 10
+                },
+                "hardports": 2,
+                "hp": 40,
+                "hullClass": "Cruiser",
+                "mass": 25,
+                "power": 15,
+                "speed": 0,
+                "type": "Bulk Freighter"
+            },
+            {
+                "ac": 14,
+                "armor": 15,
+                "cost": 10000000,
+                "crew": {
+                    "max": 200,
+                    "min": 50
+                },
+                "hardports": 10,
+                "hp": 60,
+                "hullClass": "Cruiser",
+                "mass": 30,
+                "power": 50,
+                "speed": 1,
+                "type": "Fleet Cruiser"
+            },
+            {
+                "ac": 16,
+                "armor": 20,
+                "cost": 50000000,
+                "crew": {
+                    "max": 1000,
+                    "min": 200
+                },
+                "hardports": 15,
+                "hp": 100,
+                "hullClass": "Capital",
+                "mass": 50,
+                "power": 75,
+                "speed": 0,
+                "type": "Battleship"
+            },
+            {
+                "ac": 14,
+                "armor": 10,
+                "cost": 60000000,
+                "crew": {
+                    "max": 1500,
+                    "min": 300
+                },
+                "hardports": 4,
+                "hp": 75,
+                "hullClass": "Capital",
+                "mass": 100,
+                "power": 50,
+                "speed": 0,
+                "type": "Carrier"
+            },
+            {
+                "ac": 11,
+                "armor": 5,
+                "cost": 5000000,
+                "crew": {
+                    "max": 200,
+                    "min": 20
+                },
+                "hardports": 10,
+                "hp": 120,
+                "hullClass": "Cruiser",
+                "mass": 40,
+                "power": 50,
+                "speed": null,
+                "type": "Small Station"
+            },
+            {
+                "ac": 17,
+                "armor": 20,
+                "cost": 40000000,
+                "crew": {
+                    "max": 1000,
+                    "min": 100
+                },
+                "hardports": 30,
+                "hp": 120,
+                "hullClass": "Capital",
+                "mass": 75,
+                "power": 125,
+                "speed": null,
+                "type": "Large Station"
+            }
+        ],
+        "properties": {
+            "name": "Starship Hulls"
+        },
+        "type": "hullTypes"
+    },
+    {
+        "items": [
+            {
+                "adjustments": {},
+                "cost": {
+                    "scales": true,
+                    "value": 10000
+                },
+                "effect": "Skill bonus for analysis and research",
+                "hullClass": "Frigate",
+                "mass": {
+                    "cost": 2.0,
+                    "scales": false
+                },
+                "name": "Advanced lab",
+                "power": {
+                    "cost": 1,
+                    "scales": true
+                }
+            },
+            {
+                "adjustments": {},
+                "cost": {
+                    "scales": true,
+                    "value": 10000
+                },
+                "effect": "Adds +2 for traveling familiar spike courses",
+                "hullClass": "Frigate",
+                "mass": {
+                    "cost": 0.0,
+                    "scales": false
+                },
+                "name": "Advanced nav computer",
+                "power": {
+                    "cost": 1,
+                    "scales": true
+                }
+            },
+            {
+                "adjustments": {},
+                "cost": {
+                    "scales": true,
+                    "value": 25000
+                },
+                "effect": "Can land and can operate under water",
+                "hullClass": "Fighter",
+                "mass": {
+                    "cost": 1.0,
+                    "scales": true
+                },
+                "name": "Amphibious operation",
+                "power": {
+                    "cost": 1,
+                    "scales": false
+                }
+            },
+            {
+                "adjustments": {},
+                "cost": {
+                    "scales": true,
+                    "value": 10000
+                },
+                "effect": "Weapons and armor for the crew",
+                "hullClass": "Frigate",
+                "mass": {
+                    "cost": 0.0,
+                    "scales": false
+                },
+                "name": "Armory",
+                "power": {
+                    "cost": 0,
+                    "scales": false
+                }
+            },
+            {
+                "adjustments": {},
+                "cost": {
+                    "scales": true,
+                    "value": 5000
+                },
+                "effect": "Can land: frigates and fighters only.",
+                "hullClass": "Fighter",
+                "mass": {
+                    "cost": 1.0,
+                    "scales": true
+                },
+                "name": "Atmospheric configuration",
+                "power": {
+                    "cost": 0,
+                    "scales": false
+                }
+            },
+            {
+                "adjustments": {},
+                "cost": {
+                    "scales": false,
+                    "value": 50000
+                },
+                "effect": "Fires one weapon system without a gunner",
+                "hullClass": "Fighter",
+                "mass": {
+                    "cost": 0.0,
+                    "scales": false
+                },
+                "name": "Auto-targeting system",
+                "power": {
+                    "cost": 1,
+                    "scales": false
+                }
+            },
+            {
+                "adjustments": {},
+                "cost": {
+                    "scales": true,
+                    "value": 10000
+                },
+                "effect": "Ship can use simple robots as crew",
+                "hullClass": "Fighter",
+                "mass": {
+                    "cost": 1.0,
+                    "scales": false
+                },
+                "name": "Automation support",
+                "power": {
+                    "cost": 2,
+                    "scales": false
+                }
+            },
+            {
+                "adjustments": {},
+                "cost": {
+                    "scales": true,
+                    "value": 5000
+                },
+                "effect": "Allows boarding of a hostile disabled ship",
+                "hullClass": "Frigate",
+                "mass": {
+                    "cost": 1.0,
+                    "scales": false
+                },
+                "name": "Boarding tubes",
+                "power": {
+                    "cost": 0,
+                    "scales": false
+                }
+            },
+            {
+                "adjustments": {},
+                "cost": {
+                    "scales": false,
+                    "value": 25000
+                },
+                "effect": "Orbit-to-surface cargo shuttle",
+                "hullClass": "Frigate",
+                "mass": {
+                    "cost": 2.0,
+                    "scales": false
+                },
+                "name": "Cargo lighter",
+                "power": {
+                    "cost": 0,
+                    "scales": false
+                }
+            },
+            {
+                "adjustments": {},
+                "cost": {
+                    "scales": false,
+                    "value": 0
+                },
+                "effect": "Pressurized cargo space",
+                "hullClass": "Fighter",
+                "mass": {
+                    "cost": 1.0,
+                    "scales": false
+                },
+                "name": "Cargo space",
+                "power": {
+                    "cost": 0,
+                    "scales": false
+                }
+            },
+            {
+                "adjustments": {},
+                "cost": {
+                    "scales": true,
+                    "value": 5000
+                },
+                "effect": "Keeps occupants in stasis",
+                "hullClass": "Frigate",
+                "mass": {
+                    "cost": 1.0,
+                    "scales": false
+                },
+                "name": "Cold sleep pods",
+                "power": {
+                    "cost": 1,
+                    "scales": false
+                }
+            },
+            {
+                "adjustments": {},
+                "cost": {
+                    "scales": true,
+                    "value": 100000
+                },
+                "effect": "Ship can be deconstructed into a colony base",
+                "hullClass": "Frigate",
+                "mass": {
+                    "cost": 2.0,
+                    "scales": true
+                },
+                "name": "Colony core",
+                "power": {
+                    "cost": 4,
+                    "scales": false
+                }
+            },
+            {
+                "adjustments": {},
+                "cost": {
+                    "scales": true,
+                    "value": 25000
+                },
+                "effect": "Common drill routes become auto-successes",
+                "hullClass": "Frigate",
+                "mass": {
+                    "cost": 1.0,
+                    "scales": false
+                },
+                "name": "Drill course regulator",
+                "power": {
+                    "cost": 1,
+                    "scales": true
+                }
+            },
+            {
+                "adjustments": {},
+                "cost": {
+                    "scales": true,
+                    "value": 10000
+                },
+                "effect": "Upgrade a spike drive to drive-2 rating",
+                "hullClass": "Fighter",
+                "mass": {
+                    "cost": 1.0,
+                    "scales": true
+                },
+                "name": "Drive-2 upgrade",
+                "power": {
+                    "cost": 1,
+                    "scales": true
+                }
+            },
+            {
+                "adjustments": {},
+                "cost": {
+                    "scales": true,
+                    "value": 20000
+                },
+                "effect": "Upgrade a spike drive to drive-3 rating",
+                "hullClass": "Fighter",
+                "mass": {
+                    "cost": 2.0,
+                    "scales": true
+                },
+                "name": "Drive-3 upgrade",
+                "power": {
+                    "cost": 2,
+                    "scales": true
+                }
+            },
+            {
+                "adjustments": {},
+                "cost": {
+                    "scales": true,
+                    "value": 40000
+                },
+                "effect": "Upgrade a spike drive to drive-4 rating",
+                "hullClass": "Frigate",
+                "mass": {
+                    "cost": 3.0,
+                    "scales": true
+                },
+                "name": "Drive-4 upgrade",
+                "power": {
+                    "cost": 2,
+                    "scales": true
+                }
+            },
+            {
+                "adjustments": {},
+                "cost": {
+                    "scales": true,
+                    "value": 100000
+                },
+                "effect": "Upgrade a spike drive to drive-5 rating",
+                "hullClass": "Frigate",
+                "mass": {
+                    "cost": 3.0,
+                    "scales": true
+                },
+                "name": "Drive-5 upgrade",
+                "power": {
+                    "cost": 3,
+                    "scales": true
+                }
+            },
+            {
+                "adjustments": {},
+                "cost": {
+                    "scales": true,
+                    "value": 500000
+                },
+                "effect": "Upgrade a spike drive to drive-6 rating",
+                "hullClass": "Cruiser",
+                "mass": {
+                    "cost": 4.0,
+                    "scales": true
+                },
+                "name": "Drive-6 upgrade",
+                "power": {
+                    "cost": 3,
+                    "scales": true
+                }
+            },
+            {
+                "adjustments": {},
+                "cost": {
+                    "scales": false,
+                    "value": 300000
+                },
+                "effect": "Stealthed landing pod for troops",
+                "hullClass": "Frigate",
+                "mass": {
+                    "cost": 2.0,
+                    "scales": false
+                },
+                "name": "Drop pod",
+                "power": {
+                    "cost": 0,
+                    "scales": false
+                }
+            },
+            {
+                "adjustments": {},
+                "cost": {
+                    "scales": true,
+                    "value": 25000
+                },
+                "effect": "Adds +2 to skill checks to avoid detection",
+                "hullClass": "Fighter",
+                "mass": {
+                    "cost": 1.0,
+                    "scales": true
+                },
+                "name": "Emissions dampers",
+                "power": {
+                    "cost": 1,
+                    "scales": true
+                }
+            },
+            {
+                "adjustments": {},
+                "cost": {
+                    "scales": true,
+                    "value": 50000
+                },
+                "effect": "House vast numbers of cold sleep passengers",
+                "hullClass": "Cruiser",
+                "mass": {
+                    "cost": 2.0,
+                    "scales": true
+                },
+                "name": "Exodus bay",
+                "power": {
+                    "cost": 1,
+                    "scales": true
+                }
+            },
+            {
+                "adjustments": {},
+                "cost": {
+                    "scales": true,
+                    "value": 5000
+                },
+                "effect": "Doubles maximum crew size",
+                "hullClass": "Fighter",
+                "mass": {
+                    "cost": 1.0,
+                    "scales": true
+                },
+                "name": "Extended life support",
+                "power": {
+                    "cost": 1,
+                    "scales": true
+                }
+            },
+            {
+                "adjustments": {},
+                "cost": {
+                    "scales": true,
+                    "value": 5000
+                },
+                "effect": "Can provide medical care to more patients",
+                "hullClass": "Frigate",
+                "mass": {
+                    "cost": 1.0,
+                    "scales": false
+                },
+                "name": "Extended medbay",
+                "power": {
+                    "cost": 1,
+                    "scales": false
+                }
+            },
+            {
+                "adjustments": {},
+                "cost": {
+                    "scales": true,
+                    "value": 2500
+                },
+                "effect": "Maximum life support duration is doubled",
+                "hullClass": "Fighter",
+                "mass": {
+                    "cost": 1.0,
+                    "scales": true
+                },
+                "name": "Extended stores",
+                "power": {
+                    "cost": 0,
+                    "scales": false
+                }
+            },
+            {
+                "adjustments": {},
+                "cost": {
+                    "scales": true,
+                    "value": 2500
+                },
+                "effect": "Adds fuel for one more drill between fuelings",
+                "hullClass": "Fighter",
+                "mass": {
+                    "cost": 1.0,
+                    "scales": false
+                },
+                "name": "Fuel bunkers",
+                "power": {
+                    "cost": 0,
+                    "scales": false
+                }
+            },
+            {
+                "adjustments": {},
+                "cost": {
+                    "scales": true,
+                    "value": 5000
+                },
+                "effect": "Ship can scoop fuel from a gas giant or star",
+                "hullClass": "Frigate",
+                "mass": {
+                    "cost": 1.0,
+                    "scales": true
+                },
+                "name": "Fuel scoops",
+                "power": {
+                    "cost": 2,
+                    "scales": false
+                }
+            },
+            {
+                "adjustments": {},
+                "cost": {
+                    "scales": true,
+                    "value": 10000
+                },
+                "effect": "Ship produces life support resources",
+                "hullClass": "Cruiser",
+                "mass": {
+                    "cost": 2.0,
+                    "scales": true
+                },
+                "name": "Hydroponic production",
+                "power": {
+                    "cost": 1,
+                    "scales": true
+                }
+            },
+            {
+                "adjustments": {},
+                "cost": {
+                    "scales": true,
+                    "value": 2500
+                },
+                "effect": "Emergency escape craft for a ship\u2019s crew",
+                "hullClass": "Frigate",
+                "mass": {
+                    "cost": 1.0,
+                    "scales": false
+                },
+                "name": "Lifeboats",
+                "power": {
+                    "cost": 0,
+                    "scales": false
+                }
+            },
+            {
+                "adjustments": {},
+                "cost": {
+                    "scales": true,
+                    "value": 10000
+                },
+                "effect": "10% of the max crew get luxurious quarters",
+                "hullClass": "Frigate",
+                "mass": {
+                    "cost": 1.0,
+                    "scales": true
+                },
+                "name": "Luxury cabins",
+                "power": {
+                    "cost": 1,
+                    "scales": false
+                }
+            },
+            {
+                "adjustments": {},
+                "cost": {
+                    "scales": false,
+                    "value": 50000
+                },
+                "effect": "Space mining and refinery fittings",
+                "hullClass": "Frigate",
+                "mass": {
+                    "cost": 1.0,
+                    "scales": false
+                },
+                "name": "Mobile extractor",
+                "power": {
+                    "cost": 2,
+                    "scales": false
+                }
+            },
+            {
+                "adjustments": {},
+                "cost": {
+                    "scales": true,
+                    "value": 50000
+                },
+                "effect": "Self-sustaining factory and repair facilities",
+                "hullClass": "Cruiser",
+                "mass": {
+                    "cost": 2.0,
+                    "scales": true
+                },
+                "name": "Mobile factory",
+                "power": {
+                    "cost": 3,
+                    "scales": false
+                }
+            },
+            {
+                "adjustments": {},
+                "cost": {
+                    "scales": true,
+                    "value": 100000
+                },
+                "effect": "Allows a precog to assist in navigation",
+                "hullClass": "Frigate",
+                "mass": {
+                    "cost": 0.0,
+                    "scales": false
+                },
+                "name": "Precognitive nav chamber",
+                "power": {
+                    "cost": 1,
+                    "scales": false
+                }
+            },
+            {
+                "adjustments": {},
+                "cost": {
+                    "scales": false,
+                    "value": 0
+                },
+                "effect": "Focal point for allied psychics\u2019 powers",
+                "hullClass": "Frigate",
+                "mass": {
+                    "cost": 0.0,
+                    "scales": false
+                },
+                "name": "Psionic anchorpoint",
+                "power": {
+                    "cost": 3,
+                    "scales": false
+                }
+            },
+            {
+                "adjustments": {},
+                "cost": {
+                    "scales": true,
+                    "value": 10000
+                },
+                "effect": "At long distances, disguise ship as another",
+                "hullClass": "Frigate",
+                "mass": {
+                    "cost": 0.0,
+                    "scales": false
+                },
+                "name": "Sensor mask",
+                "power": {
+                    "cost": 1,
+                    "scales": true
+                }
+            },
+            {
+                "adjustments": {},
+                "cost": {
+                    "scales": false,
+                    "value": 200000
+                },
+                "effect": "Carrier housing for a fighter",
+                "hullClass": "Cruiser",
+                "mass": {
+                    "cost": 2.0,
+                    "scales": false
+                },
+                "name": "Ship bay/fighter",
+                "power": {
+                    "cost": 0,
+                    "scales": false
+                }
+            },
+            {
+                "adjustments": {},
+                "cost": {
+                    "scales": false,
+                    "value": 1000000
+                },
+                "effect": "Carrier housing for a frigate",
+                "hullClass": "Capital",
+                "mass": {
+                    "cost": 4.0,
+                    "scales": false
+                },
+                "name": "Ship bay/frigate",
+                "power": {
+                    "cost": 1,
+                    "scales": false
+                }
+            },
+            {
+                "adjustments": {},
+                "cost": {
+                    "scales": true,
+                    "value": 2000
+                },
+                "effect": "General equipment for the crew",
+                "hullClass": "Frigate",
+                "mass": {
+                    "cost": 0.0,
+                    "scales": false
+                },
+                "name": "Ship\u2019s locker",
+                "power": {
+                    "cost": 0,
+                    "scales": false
+                }
+            },
+            {
+                "adjustments": {},
+                "cost": {
+                    "scales": true,
+                    "value": 25000
+                },
+                "effect": "Allow another ship to hitch on a spike drive",
+                "hullClass": "Frigate",
+                "mass": {
+                    "cost": 1.0,
+                    "scales": false
+                },
+                "name": "Shiptender mount",
+                "power": {
+                    "cost": 1,
+                    "scales": false
+                }
+            },
+            {
+                "adjustments": {},
+                "cost": {
+                    "scales": true,
+                    "value": 2500
+                },
+                "effect": "Small amount of well-hidden cargo space",
+                "hullClass": "Fighter",
+                "mass": {
+                    "cost": 1.0,
+                    "scales": false
+                },
+                "name": "Smuggler\u2019s hold",
+                "power": {
+                    "cost": 0,
+                    "scales": false
+                }
+            },
+            {
+                "adjustments": {},
+                "cost": {
+                    "scales": true,
+                    "value": 5000
+                },
+                "effect": "Improved planetary sensory array",
+                "hullClass": "Frigate",
+                "mass": {
+                    "cost": 1.0,
+                    "scales": false
+                },
+                "name": "Survey sensor array",
+                "power": {
+                    "cost": 2,
+                    "scales": false
+                }
+            },
+            {
+                "adjustments": {},
+                "cost": {
+                    "scales": false,
+                    "value": 0
+                },
+                "effect": "Replace spike drive with small system drive",
+                "hullClass": "Fighter",
+                "mass": {
+                    "cost": -2.0,
+                    "scales": true
+                },
+                "name": "System drive",
+                "power": {
+                    "cost": -1,
+                    "scales": true
+                }
+            },
+            {
+                "adjustments": {},
+                "cost": {
+                    "scales": false,
+                    "value": 0
+                },
+                "effect": "Pretech teleportation to and from ship",
+                "hullClass": "Frigate",
+                "mass": {
+                    "cost": 1.0,
+                    "scales": false
+                },
+                "name": "Teleportation pads",
+                "power": {
+                    "cost": 1,
+                    "scales": false
+                }
+            },
+            {
+                "adjustments": {},
+                "cost": {
+                    "scales": true,
+                    "value": 10000
+                },
+                "effect": "Manipulate objects in space at a distance",
+                "hullClass": "Frigate",
+                "mass": {
+                    "cost": 1.0,
+                    "scales": false
+                },
+                "name": "Tractor beams",
+                "power": {
+                    "cost": 2,
+                    "scales": false
+                }
+            },
+            {
+                "adjustments": {},
+                "cost": {
+                    "scales": true,
+                    "value": 2500
+                },
+                "effect": "Halve tonnage space of carried vehicles",
+                "hullClass": "Frigate",
+                "mass": {
+                    "cost": 1.0,
+                    "scales": true
+                },
+                "name": "Vehicle transport fittings",
+                "power": {
+                    "cost": 0,
+                    "scales": false
+                }
+            },
+            {
+                "adjustments": {},
+                "cost": {
+                    "scales": true,
+                    "value": 500
+                },
+                "effect": "Automated tech workshops for maintenance",
+                "hullClass": "Frigate",
+                "mass": {
+                    "cost": 0.5,
+                    "scales": true
+                },
+                "name": "Workshop",
+                "power": {
+                    "cost": 1,
+                    "scales": false
+                }
+            }
+        ],
+        "properties": {
+            "name": "Starship Fittings"
+        },
+        "type": "fittings"
+    },
+    {
+        "items": [
+            {
+                "adjustments": {
+                    "ac": "1",
+                    "hp": "20"
+                },
+                "cost": {
+                    "scales": true,
+                    "value": 100000
+                },
+                "hullClass": "Capital",
+                "mass": {
+                    "cost": 2.0,
+                    "scales": true
+                },
+                "name": "Ablative Hull Compartments",
+                "power": {
+                    "cost": 5,
+                    "scales": false
+                }
+            },
+            {
+                "adjustments": {
+                    "ac": "2",
+                    "speed": "-1"
+                },
+                "cost": {
+                    "scales": true,
+                    "value": 25000
+                },
+                "hullClass": "Fighter",
+                "mass": {
+                    "cost": 1.0,
+                    "scales": true
+                },
+                "name": "Augmented Plating",
+                "power": {
+                    "cost": 0,
+                    "scales": false
+                }
+            },
+            {
+                "adjustments": {},
+                "cost": {
+                    "scales": true,
+                    "value": 25000
+                },
+                "hullClass": "Frigate",
+                "mass": {
+                    "cost": 1.0,
+                    "scales": true
+                },
+                "name": "Boarding Countermeasures",
+                "power": {
+                    "cost": 2,
+                    "scales": false
+                }
+            },
+            {
+                "adjustments": {},
+                "cost": {
+                    "scales": true,
+                    "value": 25000
+                },
+                "hullClass": "Frigate",
+                "mass": {
+                    "cost": 1.0,
+                    "scales": true
+                },
+                "name": "Burst ECM Generator",
+                "power": {
+                    "cost": 2,
+                    "scales": false
+                }
+            },
+            {
+                "adjustments": {},
+                "cost": {
+                    "scales": true,
+                    "value": 10000
+                },
+                "hullClass": "Cruiser",
+                "mass": {
+                    "cost": 1.0,
+                    "scales": true
+                },
+                "name": "Foxer Drones",
+                "power": {
+                    "cost": 2,
+                    "scales": false
+                }
+            },
+            {
+                "adjustments": {},
+                "cost": {
+                    "scales": true,
+                    "value": 50000
+                },
+                "hullClass": "Frigate",
+                "mass": {
+                    "cost": 2.0,
+                    "scales": true
+                },
+                "name": "Grav Eddy Displacer",
+                "power": {
+                    "cost": 5,
+                    "scales": false
+                }
+            },
+            {
+                "adjustments": {},
+                "cost": {
+                    "scales": true,
+                    "value": 25000
+                },
+                "hullClass": "Fighter",
+                "mass": {
+                    "cost": 1.0,
+                    "scales": true
+                },
+                "name": "Hardened Polyceramic Overlay",
+                "power": {
+                    "cost": 0,
+                    "scales": false
+                }
+            },
+            {
+                "adjustments": {},
+                "cost": {
+                    "scales": true,
+                    "value": 50000
+                },
+                "hullClass": "Frigate",
+                "mass": {
+                    "cost": 2.0,
+                    "scales": true
+                },
+                "name": "Planetary Defense Array",
+                "power": {
+                    "cost": 4,
+                    "scales": false
+                }
+            },
+            {
+                "adjustments": {},
+                "cost": {
+                    "scales": true,
+                    "value": 10000
+                },
+                "hullClass": "Frigate",
+                "mass": {
+                    "cost": 2.0,
+                    "scales": true
+                },
+                "name": "Point Defense Lasers",
+                "power": {
+                    "cost": 3,
+                    "scales": false
+                }
+            }
+        ],
+        "properties": {
+            "name": "Starship Defenses"
+        },
+        "type": "defenses"
+    },
+    {
+        "items": [
+            {
+                "cost": {
+                    "scales": false,
+                    "stackSize": null,
+                    "value": 100000
+                },
+                "dmg": "1d4",
+                "hardports": 1,
+                "hullClass": "Fighter",
+                "mass": {
+                    "cost": 1.0,
+                    "scales": false
+                },
+                "name": "Multifocal Laser",
+                "power": {
+                    "cost": 5,
+                    "scales": false
+                },
+                "qualities": "AP 20",
+                "techLevel": 4
+            },
+            {
+                "cost": {
+                    "scales": false,
+                    "stackSize": null,
+                    "value": 100000
+                },
+                "dmg": "3d4",
+                "hardports": 1,
+                "hullClass": "Fighter",
+                "mass": {
+                    "cost": 1.0,
+                    "scales": false
+                },
+                "name": "Reaper Battery",
+                "power": {
+                    "cost": 4,
+                    "scales": false
+                },
+                "qualities": "Clumsy",
+                "techLevel": 4
+            },
+            {
+                "cost": {
+                    "scales": false,
+                    "stackSize": 500,
+                    "value": 200000
+                },
+                "dmg": "2d6",
+                "hardports": 1,
+                "hullClass": "Fighter",
+                "mass": {
+                    "cost": 1.0,
+                    "scales": false
+                },
+                "name": "Fractal Impact Charge",
+                "power": {
+                    "cost": 5,
+                    "scales": false
+                },
+                "qualities": "AP 15, Ammo 4",
+                "techLevel": 4
+            },
+            {
+                "cost": {
+                    "scales": false,
+                    "stackSize": null,
+                    "value": 2000000
+                },
+                "dmg": "2d4",
+                "hardports": 1,
+                "hullClass": "Fighter",
+                "mass": {
+                    "cost": 1.0,
+                    "scales": false
+                },
+                "name": "Polyspectral MES Beam",
+                "power": {
+                    "cost": 5,
+                    "scales": false
+                },
+                "qualities": "AP 25",
+                "techLevel": 5
+            },
+            {
+                "cost": {
+                    "scales": false,
+                    "stackSize": null,
+                    "value": 50000
+                },
+                "dmg": "2d4",
+                "hardports": 1,
+                "hullClass": "Fighter",
+                "mass": {
+                    "cost": 1.0,
+                    "scales": false
+                },
+                "name": "Sandthrower",
+                "power": {
+                    "cost": 3,
+                    "scales": false
+                },
+                "qualities": "Flak",
+                "techLevel": 4
+            },
+            {
+                "cost": {
+                    "scales": false,
+                    "stackSize": null,
+                    "value": 500000
+                },
+                "dmg": "2d6",
+                "hardports": 1,
+                "hullClass": "Frigate",
+                "mass": {
+                    "cost": 3.0,
+                    "scales": false
+                },
+                "name": "Flak Emitter Battery",
+                "power": {
+                    "cost": 5,
+                    "scales": false
+                },
+                "qualities": "AP 10, Flak",
+                "techLevel": 4
+            },
+            {
+                "cost": {
+                    "scales": false,
+                    "stackSize": 2500,
+                    "value": 500000
+                },
+                "dmg": "3d8",
+                "hardports": 1,
+                "hullClass": "Frigate",
+                "mass": {
+                    "cost": 3.0,
+                    "scales": false
+                },
+                "name": "Torpedo Launcher",
+                "power": {
+                    "cost": 10,
+                    "scales": false
+                },
+                "qualities": "AP 20, Ammo 4",
+                "techLevel": 4
+            },
+            {
+                "cost": {
+                    "scales": false,
+                    "stackSize": null,
+                    "value": 800000
+                },
+                "dmg": "3d6",
+                "hardports": 2,
+                "hullClass": "Frigate",
+                "mass": {
+                    "cost": 1.0,
+                    "scales": false
+                },
+                "name": "Charged Particle Caster",
+                "power": {
+                    "cost": 10,
+                    "scales": false
+                },
+                "qualities": "AP 15, Clumsy",
+                "techLevel": 4
+            },
+            {
+                "cost": {
+                    "scales": false,
+                    "stackSize": null,
+                    "value": 700000
+                },
+                "dmg": "3d6",
+                "hardports": 2,
+                "hullClass": "Frigate",
+                "mass": {
+                    "cost": 2.0,
+                    "scales": false
+                },
+                "name": "Plasma Beam",
+                "power": {
+                    "cost": 5,
+                    "scales": false
+                },
+                "qualities": "AP 10",
+                "techLevel": 4
+            },
+            {
+                "cost": {
+                    "scales": false,
+                    "stackSize": 5000,
+                    "value": 1000000
+                },
+                "dmg": "2d6+2",
+                "hardports": 2,
+                "hullClass": "Frigate",
+                "mass": {
+                    "cost": 2.0,
+                    "scales": false
+                },
+                "name": "Mag Spike Array",
+                "power": {
+                    "cost": 5,
+                    "scales": false
+                },
+                "qualities": "Flak, AP 10, Ammo 5",
+                "techLevel": 4
+            },
+            {
+                "cost": {
+                    "scales": false,
+                    "stackSize": 5000,
+                    "value": 50000
+                },
+                "dmg": "Special",
+                "hardports": 2,
+                "hullClass": "Frigate",
+                "mass": {
+                    "cost": 1.0,
+                    "scales": false
+                },
+                "name": "Nuclear Missiles",
+                "power": {
+                    "cost": 5,
+                    "scales": false
+                },
+                "qualities": "Ammo 5",
+                "techLevel": 4
+            },
+            {
+                "cost": {
+                    "scales": false,
+                    "stackSize": null,
+                    "value": 1500000
+                },
+                "dmg": "3d10",
+                "hardports": 3,
+                "hullClass": "Cruiser",
+                "mass": {
+                    "cost": 5.0,
+                    "scales": false
+                },
+                "name": "Spinal Beam Cannon",
+                "power": {
+                    "cost": 10,
+                    "scales": false
+                },
+                "qualities": "AP 15, Clumsy",
+                "techLevel": 4
+            },
+            {
+                "cost": {
+                    "scales": false,
+                    "stackSize": null,
+                    "value": 2000000
+                },
+                "dmg": "3d10",
+                "hardports": 2,
+                "hullClass": "Cruiser",
+                "mass": {
+                    "cost": 5.0,
+                    "scales": false
+                },
+                "name": "Smart Cloud",
+                "power": {
+                    "cost": 10,
+                    "scales": false
+                },
+                "qualities": "Cloud, Clumsy",
+                "techLevel": 4
+            },
+            {
+                "cost": {
+                    "scales": false,
+                    "stackSize": null,
+                    "value": 2000000
+                },
+                "dmg": "4d6",
+                "hardports": 3,
+                "hullClass": "Cruiser",
+                "mass": {
+                    "cost": 4.0,
+                    "scales": false
+                },
+                "name": "Gravcannon",
+                "power": {
+                    "cost": 15,
+                    "scales": false
+                },
+                "qualities": "AP 20",
+                "techLevel": 4
+            },
+            {
+                "cost": {
+                    "scales": false,
+                    "stackSize": null,
+                    "value": 2500000
+                },
+                "dmg": "3d8",
+                "hardports": 3,
+                "hullClass": "Cruiser",
+                "mass": {
+                    "cost": 3.0,
+                    "scales": false
+                },
+                "name": "Spike Inversion Projector",
+                "power": {
+                    "cost": 10,
+                    "scales": false
+                },
+                "qualities": "AP 15",
+                "techLevel": 4
+            },
+            {
+                "cost": {
+                    "scales": false,
+                    "stackSize": null,
+                    "value": 5000000
+                },
+                "dmg": "3d20",
+                "hardports": 4,
+                "hullClass": "Capital",
+                "mass": {
+                    "cost": 10.0,
+                    "scales": false
+                },
+                "name": "Vortex Tunnel Inductor",
+                "power": {
+                    "cost": 20,
+                    "scales": false
+                },
+                "qualities": "AP 20, Clumsy",
+                "techLevel": 4
+            },
+            {
+                "cost": {
+                    "scales": false,
+                    "stackSize": 50000,
+                    "value": 5000000
+                },
+                "dmg": "2d20",
+                "hardports": 4,
+                "hullClass": "Capital",
+                "mass": {
+                    "cost": 5.0,
+                    "scales": false
+                },
+                "name": "Mass Cannon",
+                "power": {
+                    "cost": 10,
+                    "scales": false
+                },
+                "qualities": "AP 20, Ammo 4",
+                "techLevel": 4
+            },
+            {
+                "cost": {
+                    "scales": false,
+                    "stackSize": null,
+                    "value": 4000000
+                },
+                "dmg": "1d20",
+                "hardports": 2,
+                "hullClass": "Capital",
+                "mass": {
+                    "cost": 5.0,
+                    "scales": false
+                },
+                "name": "Lightning Charge Mantle",
+                "power": {
+                    "cost": 15,
+                    "scales": false
+                },
+                "qualities": "AP 5, Cloud",
+                "techLevel": 4
+            },
+            {
+                "cost": {
+                    "scales": false,
+                    "stackSize": null,
+                    "value": 20000000
+                },
+                "dmg": "5d20",
+                "hardports": 5,
+                "hullClass": "Capital",
+                "mass": {
+                    "cost": 10.0,
+                    "scales": false
+                },
+                "name": "Singularity Gun",
+                "power": {
+                    "cost": 25,
+                    "scales": false
+                },
+                "qualities": "AP 25",
+                "techLevel": 5
+            }
+        ],
+        "properties": {
+            "name": "Starship Weapons"
+        },
+        "type": "weapons"
+    }
+]
