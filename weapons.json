@@ -41,9 +41,9 @@
     "burst":false,
     "description":"Bows are uncommon weapons in the far future, though some lostworlder barbarians have nothing better. Conversion bows use special materials to convert the kinetic energy of the draw into a force field “glazing” around the arrow, improving penetration. Bows can be reloaded with a Move action, or faster if the Gunslinger focus is applied."
   },
-  "gernade":{
+  "grenade":{
     "type":"ranged",
-    "name":"Gernade",
+    "name":"Grenade",
     "damage":"2d6",
     "range":"10/30",
     "cost":"25",
